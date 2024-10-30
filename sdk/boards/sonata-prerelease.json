@@ -28,6 +28,30 @@
             "start" : 0x80000140,
             "end"   : 0x80000150
         },
+        "pwm": {
+            "start" : 0x80001000,
+            "end"   : 0x80001030
+        },
+        "pwm_lcd": {
+            "start" : 0x80001030,
+            "end"   : 0x80001038
+        },
+        "pinmux": {
+            "start" : 0x80005000,
+            "length": 0x00001000
+        },
+        "rgbled" : {
+            "start" : 0x80009000,
+            "end"   : 0x80009020
+        },
+        "revoker": {
+            "start" : 0x8000A000,
+            "length": 0x00001000
+        },
+        "adc": {
+            "start" : 0x8000B000,
+            "length": 0x00001000
+        },
         "clint": {
             "start" : 0x80040000,
             "end"   : 0x80050000
@@ -44,14 +68,6 @@
             "start" : 0x80102000,
             "end"   : 0x80102034
         },
-        "uart3": {
-            "start" : 0x80103000,
-            "end"   : 0x80103034
-        },
-        "uart4": {
-            "start" : 0x80104000,
-            "end"   : 0x80104034
-        },
         "i2c0": {
             "start" : 0x80200000,
             "end"   : 0x80200080
@@ -60,37 +76,29 @@
             "start" : 0x80201000,
             "end"   : 0x80201080
         },
-        "spi0": {
+        "spi_lcd": {
             "start" : 0x80300000,
             "end"   : 0x80301000
         },
-        "spi1": {
+        "spi_ethmac": {
             "start" : 0x80301000,
             "end"   : 0x80302000
         },
-        "spi2": {
+        "spi0": {
             "start" : 0x80302000,
             "end"   : 0x80303000
         },
-        "rgbled" : {
-            "start" : 0x80009000,
-            "end"   : 0x80009020
+        "spi1": {
+            "start" : 0x80303000,
+            "end"   : 0x80304000
         },
-        "revoker": {
-            "start": 0x8000A000,
-            "length": 0x1000
+        "spi2": {
+            "start" : 0x80304000,
+            "end"   : 0x80305000
         },
         "plic": {
             "start" : 0x88000000,
             "end"   : 0x88400000
-        },
-        "pwm": {
-            "start" : 0x80001000,
-            "length": 0x00001000
-        },
-        "adc": {
-            "start" : 0x8000B000,
-            "length": 0x00001000
         }
     },
     "instruction_memory": {
